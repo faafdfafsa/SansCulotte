@@ -1,0 +1,2 @@
+# SansCulotte
+NPでの全フォロー時にタイムライン汚染抑止Chrome拡張
