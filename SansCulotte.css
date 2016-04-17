@@ -1,0 +1,15 @@
+a.usertile .js-time {
+    bottom: -8px;
+    right: 15px;
+    border: solid 1px rgb(21, 39, 77);
+    width: 75px;
+    text-align: center;
+}
+a.usertile .showTimeLine{
+    background-color: rgb(21, 39, 77);
+    color: white;
+}
+a.usertile .noShowTimeLine{
+    background-color: white;
+    color: rgb(21, 39, 77);
+}

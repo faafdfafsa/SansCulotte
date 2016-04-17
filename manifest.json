@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "SanCulotte",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://newspicks.com/*"],
+      "js": ["jquery-2.2.3.min.js", "remove-timeline.js"],
+      "run_at":"document_start"
+    },
+    {
+      "matches": ["https://newspicks.com/user/*"],
+      "js": ["jquery-2.2.3.min.js", "manage-timeline.js"],
+      "css":["SansCulotte.css"],
+      "run_at":"document_end"
+    }
+
+  ]
+}
